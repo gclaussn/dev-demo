@@ -1,0 +1,5 @@
+theme: template
+theme-override: arquillian/assets/css/PITCHME.css
+highlight: tomorrow
+code-line-numbers: true
+footnote: "Acceptance testing with Arquillian"

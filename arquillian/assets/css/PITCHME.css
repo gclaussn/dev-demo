@@ -1,0 +1,11 @@
+.reveal pre {
+  font-size: 21px;
+}
+
+.code-hide-opacity {
+  opacity: 0.3;
+}
+
+.hljs-comment {
+  color: #000;
+}

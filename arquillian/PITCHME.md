@@ -8,11 +8,11 @@
 
 ---
 
-### How import is testing in software engineering?
+### How important is testing in software engineering?
 
 ### Do you have to write tests?
 
-...
++++
 
 "It depends!"
 
@@ -416,6 +416,41 @@ int tomcatPort;
 // When running against Openshift, retrieve route from service
 @RouteURL("<service-name>")
 URL url;
+```
+
+---
+
+### Lessons learned
+
+- Use remote container for local development
+  - Fast, since no server start up needed
+
+- Docker Image
+  - Application server + H2 in-memory database
+  - Second screen with logs (```docker logs -f```)
+  - Remote debugging enabled
+
+```
+ENV JAVA_TOOL_OPTIONS \
+"-agentlib:jdwp=transport=dt_socket,address=*:8787,server=y,suspend=n"
+```
+
++++
+
+- Don't repeat yourself
+  - Abstract super class handles ```@Deployment```
+  - Create customizable ```WebArchive``` factory class
+
+```java
+@Deployment(testable = false)
+public static WebArchive createDeployment() {
+  return WebArchiveFactory.create(webArchive -> {
+    // lambda consumer function for customization
+
+    webArchive.addAsResource("custom.properties");
+    webArchive.addClass(Custom.class);
+  });
+}
 ```
 
 ---

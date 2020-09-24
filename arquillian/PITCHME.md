@@ -371,7 +371,7 @@ arquillian.xml under src/test/resources
   <property name="serverVersion">19.03.5</property>
   <property name="serverUri">tcp://192.168.99.100:2376</property>
   <property name="tlsVerify">true</property>
-  <property name="certPath">${user.home}/.docker/machine/machines/default</property>
+  <property name="certPath">...</property>
   <property name="definitionFormat">CUBE</property>
   <property name="dockerContainers">
     wildfly:
@@ -424,4 +424,4 @@ URL url;
 
 Source code on Github:
 
-[gclaussn/dev-demo/arquillian](https://github.com/gclaussn/dev-demo/arquillian)
+[gclaussn/dev-demo/arquillian](https://github.com/gclaussn/dev-demo/tree/master/arquillian)

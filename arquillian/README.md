@@ -1,6 +1,6 @@
 # Java EE: Acceptance testing with Arquillian
 
-Start the [presentation](https://gitpitch.com/gclaussn/dev-demo?p=arquillian)
+Start the [presentation](https://gclaussn.github.io/dev-demo/arquillian)
 
 To configure Arquillian for a remote Wildfly container, change the following properties in ```arquillian.xml``` under src/test/resources:
 

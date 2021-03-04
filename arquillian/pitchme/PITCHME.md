@@ -5,7 +5,7 @@
 ## Arquillian
 
 ---
-<img src="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/but-when-i-do.jpg" title="" alt="But when I do I do it in production" class="But when I do I do it in production" style="width: auto;height: auto;" data-image-key="5625223047416576092"  />
+<img src="/dev-demo/arquillian/pitchme/img/but-when-i-do.jpg" title="" alt="But when I do I do it in production" class="But when I do I do it in production" style="width: auto;height: auto;" data-image-key="5625223047416576092"  />
 
 ---
 ### How important is testing in software engineering?
@@ -30,7 +30,7 @@
 - test coverage as acceptance criteria
 
 +++
-<!-- .slide: data-background-image="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/test-automation.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
+<!-- .slide: data-background-image="/dev-demo/arquillian/pitchme/img/test-automation.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
 
 
 ---
@@ -62,11 +62,11 @@
   - Enables debugging
 
 +++
-<!-- .slide: data-background-image="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/arquillian.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
+<!-- .slide: data-background-image="/dev-demo/arquillian/pitchme/img/arquillian.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
 
 
 +++
-<!-- .slide: data-background-image="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/arquillian-execution.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
+<!-- .slide: data-background-image="/dev-demo/arquillian/pitchme/img/arquillian-execution.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
 
 
 +++
@@ -108,7 +108,7 @@ arquillian.xml under src/test/resources
 ---
 Example: Todo Application
 
-<img src="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/todo-app.png" title="" alt="todo-app" class="todo-app" style="width: auto;height: auto;" data-image-key="3653388480541075009"  />
+<img src="/dev-demo/arquillian/pitchme/img/todo-app.png" title="" alt="todo-app" class="todo-app" style="width: auto;height: auto;" data-image-key="3653388480541075009"  />
 
 ---
 ### Writing an Arquillian test
@@ -220,7 +220,7 @@ public void testValidation() {
 ---
 Example: Classpath control
 
-<img src="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/classpath-control.png" title="" alt="classpath-control" class="classpath-control" style="width: auto;height: auto;" data-image-key="-4428704254121973196"  />
+<img src="/dev-demo/arquillian/pitchme/img/classpath-control.png" title="" alt="classpath-control" class="classpath-control" style="width: auto;height: auto;" data-image-key="-4428704254121973196"  />
 
 +++
 <pre><code class="hljs lang-">@Alternative
@@ -280,7 +280,7 @@ public static WebArchive createDeployment() {
 ---
 Example: Deployment control
 
-<img src="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/deployment-control.png" title="" alt="deployment-control" class="deployment-control" style="width: auto;height: auto;" data-image-key="-9009735677868828247"  />
+<img src="/dev-demo/arquillian/pitchme/img/deployment-control.png" title="" alt="deployment-control" class="deployment-control" style="width: auto;height: auto;" data-image-key="-9009735677868828247"  />
 
 +++
 <pre><code class="hljs lang-">@WebServlet("/check")
@@ -349,11 +349,11 @@ public static WebArchive createDeployment() {
 4. Right click on Arquillian test -> Debug As -> JUnit Test
 
 +++
-<!-- .slide: data-background-image="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/remote-debug-configuration.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
+<!-- .slide: data-background-image="/dev-demo/arquillian/pitchme/img/remote-debug-configuration.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
 
 
 +++
-<!-- .slide: data-background-image="https://gitpitch.com/pitchme/cdn/github/gclaussn/dev-demo/master/C83E14B6F05BADEF8B5F29923C1B5E8DFACC8EA1C8453152EE526FE6362E19C66E9F217AC2ED491789AF8E2F97095572DAC66B0197DB9E660F066CF197FCE57347E26DBFD3521CD1C0A0D622615349789F429ACB36C9A2D6/arquillian/assets/img/remote-debug.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
+<!-- .slide: data-background-image="/dev-demo/arquillian/pitchme/img/remote-debug.png" data-background-size="80% auto" data-background-position="center" data-background=" " data-background-repeat=" " data-background-transition="none" -->
 
 
 ---
